@@ -1,5 +1,63 @@
-# PalantirCurriculum
- 16-week Palantir-Aligned Software Engineering Curriculum covering Java, APIs, React, SQL, DevOps, Data Engineering, and ML. Delivered 8 full-stack projects, culminating in a drone AI system using YOLOv5 and telemetry analysis.
+# 🛠️ Palantir-Aligned Tech Curriculum (Summer 2025)
+
+This repository documents my self-directed 16-week software engineering curriculum inspired by the engineering values and technical demands of companies like Palantir.
+
+📆 **June 8 – September 21, 2025**  
+🧠 **40+ hours of curated tutorials**  
+💻 **8 hands-on projects**  
+🎯 **Designed to sharpen full-stack and systems-level engineering skills**
+
+---
+
+## 📚 Curriculum Overview
+
+| Week(s)       | Focus Area                              | Project Deliverable                        |
+|---------------|------------------------------------------|--------------------------------------------|
+| Week 1–2      | Java, Git, Data Structures, Clean Code   | `TaskManager.java` – CLI Task Tracker      |
+| Week 3–4      | SQL + REST APIs                          | `inventory_api.py` – Flask CRUD API        |
+| Week 5–6      | JavaScript, React, UI Design             | `Dashboard.jsx` – Drone Dashboard UI       |
+| Week 7–8      | Auth, Docker, GitHub Actions             | `auth_middleware.py`, `ci.yaml`, Docker    |
+| Week 9–10     | Python, Pandas, Spark, Seaborn           | `pipeline.py`, `spark_job.py`, `plots.ipynb` |
+| Week 11–12    | System Design, SOLID Principles          | `architecture.md`, `microservices.py`      |
+| Week 13–14    | AI/ML, Object Detection with YOLOv5      | `vision_inference.py`, `training_log.md`   |
+| Week 15–16    | Final Polish + Resume Optimization       | Refined GitHub repos, LinkedIn upgrade     |
+
+---
+
+## 🔗 Engineering Values Emphasized
+
+- **Ownership:** Built and tested each project independently  
+- **Collaboration:** Wrote structured documentation and followed Git best practices  
+- **Trust:** Managed my own progress using Notion + GitHub Issues  
+
+---
+
+## 🧱 Projects Included
+
+### ✅ Java CLI Task Manager
+A fully functional command-line to-do tracker with OOP structure and file persistence.
+
+### ✅ Inventory API (Flask + PostgreSQL)
+CRUD REST API using Flask, PostgreSQL, and SQLAlchemy. Includes ER diagrams and test data.
+
+### ✅ React Dashboard UI
+Frontend app with React, styled-components, and state management. Displays status metrics dynamically.
+
+### ✅ Auth + CI/CD Pipeline
+Added JWT auth system, Dockerized backend, and implemented CI/CD with GitHub Actions.
+
+### ✅ Data Pipeline & Analysis
+ETL pipeline using Pandas + Apache Spark with final visualizations in Seaborn.
+
+### ✅ System Design Architecture
+Designed a microservices backend and documented system structure using SOLID principles.
+
+### ✅ Object Detection (YOLOv5)
+Trained a YOLOv5 model and integrated it into a Python app to detect visual targets in frames.
+
+### ✅ Final Polish & Resume
+Prepared a polished technical resume, updated LinkedIn, and published public GitHub portfolios.
+
 ---
 
 ## 📅 Week 1–2: June 8 – June 21
