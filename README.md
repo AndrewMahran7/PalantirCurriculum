@@ -3,224 +3,182 @@
 This repository documents my self-directed 16-week software engineering curriculum inspired by the engineering values and technical demands of companies like Palantir.
 
 📆 **June 8 – September 21, 2025**  
-🧠 **40+ hours of curated tutorials**  
-💻 **8 hands-on projects**  
-🎯 **Designed to sharpen full-stack and systems-level engineering skills**
+🧠 **160+ hours of language mastery & project building**  
+💻 **10+ GitHub-ready mini projects**  
+🎯 **Goal: Build web, embedded, and desktop tools independently**
 
 ---
 
 ## 📚 Curriculum Overview
 
-| Week(s)       | Focus Area                              | Project Deliverable                        |
-|---------------|------------------------------------------|--------------------------------------------|
-| Week 1–2      | Java, Git, Data Structures, Clean Code   | `TaskManager.java` – CLI Task Tracker      |
-| Week 3–4      | SQL + REST APIs                          | `inventory_api.py` – Flask CRUD API        |
-| Week 5–6      | JavaScript, React, UI Design             | `Dashboard.jsx` – Drone Dashboard UI       |
-| Week 7–8      | Auth, Docker, GitHub Actions             | `auth_middleware.py`, `ci.yaml`, Docker    |
-| Week 9–10     | Python, Pandas, Spark, Seaborn           | `pipeline.py`, `spark_job.py`, `plots.ipynb` |
-| Week 11–12    | System Design, SOLID Principles          | `architecture.md`, `microservices.py`      |
-| Week 13–14    | AI/ML, Object Detection with YOLOv5      | `vision_inference.py`, `training_log.md`   |
-| Week 15–16    | Final Polish + Resume Optimization       | Refined GitHub repos, LinkedIn upgrade     |
+| Week(s)       | Focus Area                             | Project Deliverable                           |
+|---------------|-----------------------------------------|-----------------------------------------------|
+| Week 1–2      | Java, Git, Data Structures, Clean Code  | `TaskManager.java` – CLI Task Tracker         |
+| Week 3–4      | Flask + SQL APIs                        | `flask-notes-api/` – Python REST API          |
+| Week 5–6      | JavaScript + React                      | `react-productivity-dashboard/`               |
+| Week 7–8      | Embedded Python                         | `micropython-sensor-kit/`                     |
+| Week 9–10     | Rust + CLI Tools                        | `rust-password-manager/`                      |
+| Week 11–12    | Embedded Rust                           | `embedded-rust-utils/`                        |
+| Week 13–14    | Fullstack Sync (Flask + React + WebSockets) | `real-time-chat-app/`                     |
+| Week 15–16    | Resume Polish + Portfolio Setup         | Polished GitHub, personal site, resume        |
 
 ---
 
 ## 🔗 Engineering Values Emphasized
 
-- **Ownership:** Built and tested each project independently  
-- **Collaboration:** Wrote structured documentation and followed Git best practices  
-- **Trust:** Managed my own progress using Notion + GitHub Issues  
+- **Ownership:** Built and tested every project individually  
+- **Full-Stack Versatility:** Frontend, backend, CLI, and hardware control  
+- **Trust:** Managed progress through GitHub milestones and weekly commits  
 
 ---
 
 ## 🧱 Projects Included
 
 ### ✅ Java CLI Task Manager
-A fully functional command-line to-do tracker with OOP structure and file persistence.
+A terminal-based to-do tracker with OOP structure and file persistence.
 
-### ✅ Inventory API (Flask + PostgreSQL)
-CRUD REST API using Flask, PostgreSQL, and SQLAlchemy. Includes ER diagrams and test data.
+### ✅ Flask Notes API
+Python + Flask backend API with CRUD routes, PostgreSQL, and SQL schema.
 
-### ✅ React Dashboard UI
-Frontend app with React, styled-components, and state management. Displays status metrics dynamically.
+### ✅ Productivity Dashboard
+Frontend React SPA with timer, task cards, and visualization (chart.js + state).
 
-### ✅ Auth + CI/CD Pipeline
-Added JWT auth system, Dockerized backend, and implemented CI/CD with GitHub Actions.
+### ✅ Embedded Python Sensor Kit
+Reads and logs data from real-world sensors using MicroPython/CircuitPython.
 
-### ✅ Data Pipeline & Analysis
-ETL pipeline using Pandas + Apache Spark with final visualizations in Seaborn.
+### ✅ Rust Password Manager
+Secure CLI password vault in Rust, using local encryption and error handling.
 
-### ✅ System Design Architecture
-Designed a microservices backend and documented system structure using SOLID principles.
+### ✅ Embedded Rust Utilities
+Blinkers, button interrupt handlers, and I2C sensor reads using embedded Rust.
 
-### ✅ Object Detection (YOLOv5)
-Trained a YOLOv5 model and integrated it into a Python app to detect visual targets in frames.
+### ✅ Real-Time Chat App
+Fullstack app with Flask + React + Socket.IO for bi-directional live updates.
 
-### ✅ Final Polish & Resume
-Prepared a polished technical resume, updated LinkedIn, and published public GitHub portfolios.
+### ✅ Portfolio Polish
+GitHub repos finalized, Loom demos recorded, resume + LinkedIn updated.
 
 ---
 
 ## 📅 Week 1–2: June 8 – June 21
 
-🎯 **Focus:** Core Java, Git, Data Structures, and Clean Code Principles
+🎯 **Focus:** Core Java, Git, Data Structures, and Clean Code Principles  
 📘 **Tutorials & Courses:**
 
-* Java Refresher – [Codecademy](https://www.codecademy.com/learn/learn-java) (10 hrs)
-* Java Data Structures – [HackerRank 10 Days of Java](https://www.hackerrank.com/domains/tutorials/10-days-of-java) (4 hrs)
-* Git & GitHub Fundamentals – [Learn Git Branching](https://learngitbranching.js.org/) (2 hrs)
-* Clean Code Principles – [freeCodeCamp](https://www.freecodecamp.org/news/clean-coding-for-beginners/) (2 hrs)
+* [Java Refresher – Codecademy](https://www.codecademy.com/learn/learn-java) — 10 hrs  
+* [10 Days of Java – HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-java) — 4 hrs  
+* [Learn Git Branching](https://learngitbranching.js.org/) — 2 hrs  
+* [Clean Code for Beginners – freeCodeCamp](https://www.freecodecamp.org/news/clean-coding-for-beginners/) — 2 hrs  
 
 💡 **Palantir Engineering Values:**
-• Ownership: Write and test your own components
-• Collaboration: Submit 2 GitHub PRs, get feedback from a peer
-• Trust: Maintain your own progress dashboard (Notion, Trello, etc)
+- **Ownership:** Write and test your own components  
+- **Collaboration:** Submit 2 GitHub PRs, get feedback from a peer  
+- **Trust:** Maintain your own progress dashboard (Notion, Trello, etc)
 
-🧱 **Project:** Java Task Manager CLI
-Build a terminal-based task tracker (with due dates, priority levels, and local file persistence). Emphasize object-oriented design.
+🧱 **Project:** `TaskManager.java` – Java CLI Task Tracker  
+- Terminal-based to-do app with due dates, priorities, and file persistence  
+- Emphasis on OOP design patterns, clean code, and testability
 
 🔗 **Deliverables:**
-
-* `TaskManager.java` (main logic)
-* `TaskManagerTest.java` (unit tests)
-* `README.md` with usage & design explanation
+* `TaskManager.java` (core logic)  
+* `TaskManagerTest.java` (unit tests)  
+* `README.md` with instructions and design explanation  
 
 ---
 
 ## 📅 Week 3–4: June 22 – July 5
 
-🎯 **Focus:** SQL + APIs + Systems Thinking
-📘 **Tutorials & Tools:**
+🎯 **Focus:** SQL + REST APIs with Flask  
+📘 **Tutorials:**
+- [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+- [REST API Crash Course](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
 
-* [Mode SQL Tutorial](https://mode.com/sql-tutorial/) — 4 hrs
-* [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) — 3 hrs
-* [REST API Crash Course](https://www.youtube.com/watch?v=Q-BpqyOT3a8) — 3 hrs
-
-🧱 **Project:** Internal Analytics API
-Build a Flask + PostgreSQL CRUD API to manage inventory or metrics.
-
-🔗 **Deliverables:**
-
-* `inventory_api.py` (API logic)
-* `db_schema.sql`
-* `README.md` with instructions + ER diagram
+🧱 **Project:** `flask-notes-api/`  
+- CRUD note-taking app with auth and PostgreSQL  
+- Unit tests, session handling  
+- Deployed locally with README + screenshots
 
 ---
 
 ## 📅 Week 5–6: July 6 – July 19
 
-🎯 **Focus:** JavaScript + React + Frontend Design
-📘 **Tutorials & Tools:**
+🎯 **Focus:** React + Frontend Design  
+📘 **Tutorials:**
+- [JavaScript.info](https://javascript.info/)
+- [React Docs: Quick Start](https://react.dev/learn)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
 
-* [JavaScript.info Full Tutorial](https://javascript.info/) — 5 hrs
-* [React Docs: Quick Start](https://react.dev/learn) — 3 hrs
-* [Styled Components Basics](https://styled-components.com/docs/basics) — 2 hrs
-
-🧱 **Project:** React Dashboard UI
-Build a functional dashboard with React, state management, and styled components.
-
-🔗 **Deliverables:**
-
-* `Dashboard.jsx` with React components
-* `state.js` (Redux or Context API)
-* `README.md` with UI screenshots
+🧱 **Project:** `react-productivity-dashboard/`  
+- Timer, task list, time tracker chart  
+- Custom React components  
+- LocalStorage for persistence
 
 ---
 
 ## 📅 Week 7–8: July 20 – August 2
 
-🎯 **Focus:** Authentication + DevOps Foundations
-📘 **Tutorials & Tools:**
+🎯 **Focus:** Embedded Python  
+📘 **Tutorials:**
+- [MicroPython Docs](https://docs.micropython.org/en/latest/)
+- [Adafruit CircuitPython Projects](https://learn.adafruit.com/category/circuitpython)
 
-* [JWT Auth Guide](https://www.digitalocean.com/community/tutorial_series/json-web-tokens-jwt) — 3 hrs
-* [Docker Crash Course](https://www.youtube.com/watch?v=fqMOX6JJhGo) — 4 hrs
-* [GitHub Actions Docs](https://docs.github.com/en/actions) — 3 hrs
-
-🧱 **Project:** Auth + CI/CD
-Add secure login, dockerize the backend, and set up automated GitHub Actions workflows.
-
-🔗 **Deliverables:**
-
-* `auth_middleware.py` / `token.js`
-* `Dockerfile` + `docker-compose.yml`
-* `ci.yaml` for GitHub Actions
+🧱 **Project:** `micropython-sensor-kit/`  
+- Read from light, temp, accelerometer sensors  
+- Write CSV logs to flash storage  
+- LED alert when limits exceeded
 
 ---
 
 ## 📅 Week 9–10: August 3 – August 16
 
-🎯 **Focus:** Data Engineering + Python Pipelines
-📘 **Tutorials & Tools:**
+🎯 **Focus:** Rust + CLI Development  
+📘 **Tutorials:**
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [Rust CLI Projects – YouTube](https://www.youtube.com/watch?v=pBNCvZ4l0e8)
 
-* [Pandas Docs](https://pandas.pydata.org/docs/) — 3 hrs
-* [Apache Spark Intro](https://spark.apache.org/docs/latest/) — 3 hrs
-* [Seaborn Docs](https://seaborn.pydata.org/tutorial.html) — 2 hrs
-
-🧱 **Project:** Data Pipeline & Visualization
-Build an ETL pipeline in Pandas, transform it in Spark, and analyze it in Jupyter with Seaborn plots.
-
-🔗 **Deliverables:**
-
-* `pipeline.py` (ETL logic)
-* `spark_job.py` (Spark transformations)
-* `plots.ipynb` with analysis output
+🧱 **Project:** `rust-password-manager/`  
+- Add/delete/view encrypted passwords via CLI  
+- Rust error handling, file IO, user prompts  
+- Terminal demo in README
 
 ---
 
 ## 📅 Week 11–12: August 17 – August 30
 
-🎯 **Focus:** System Design + Backend Architecture
-📘 **Tutorials & Tools:**
+🎯 **Focus:** Embedded Rust Programming  
+📘 **Tutorials:**
+- [Rust Embedded Discovery](https://docs.rust-embedded.org/discovery/)
 
-* [System Design Primer](https://github.com/donnemartin/system-design-primer) — 5 hrs
-* [SOLID Principles Explained](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/) — 3 hrs
-
-🧱 **Project:** Modular Backend System
-Design a scalable backend using service separation, diagramming, and SOLID best practices.
-
-🔗 **Deliverables:**
-
-* `architecture.md` (system diagram + decisions)
-* `microservices.py` / `service.js`
-* Unit and integration test suite
+🧱 **Project:** `embedded-rust-utils/`  
+- Blink LED, debounce button press, I2C reader  
+- Schematic, comments, pinout docs
 
 ---
 
 ## 📅 Week 13–14: August 31 – September 13
 
-🎯 **Focus:** AI/ML + Visual Intelligence
-📘 **Tutorials & Tools:**
+🎯 **Focus:** Real-Time Fullstack App (WebSockets)  
+📘 **Tutorials:**
+- [Flask-SocketIO Docs](https://flask-socketio.readthedocs.io/en/latest/)
+- [React State Management](https://react.dev/learn/state-a-components-memory)
 
-* [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) — 5 hrs
-* [YOLOv5 Object Detection](https://github.com/ultralytics/yolov5) — 3 hrs
-
-🧱 **Project:** Visual Detection Pipeline
-Use YOLOv5 to detect objects in images or video frames. Integrate with Python code and log predictions.
-
-🔗 **Deliverables:**
-
-* `vision_inference.py`
-* `drone_cam_integration.py`
-* `sample_data/` + `training_log.md`
+🧱 **Project:** `real-time-chat-app/`  
+- Flask backend + Socket.IO  
+- React frontend with live chat  
+- Multiple users, join room, display messages
 
 ---
 
 ## 📅 Week 15–16: September 14 – September 21
 
-🎯 **Focus:** Final Project + Resume Polish
-📘 **Tutorials & Tools:**
+🎯 **Focus:** Resume Polish + GitHub Portfolio  
+📘 **Tutorials:**
+- [Pramp](https://www.pramp.com/)
+- [LinkedIn Optimization](https://www.topresume.com/career-advice/how-to-optimize-your-linkedin-profile)
 
-* [Pramp Mock Interviews](https://www.pramp.com/) — 2 hrs
-* [LinkedIn Optimization Guide](https://www.topresume.com/career-advice/how-to-optimize-your-linkedin-profile) — 1 hr
+🧱 **Deliverables:**
+- Updated GitHub repos (titles, tags, `README.md`)  
+- Record Loom demos of 2–3 projects  
+- Publish personal site or GitHub Pages
 
-🧱 **Final Project Polish:**
-Refactor projects, finalize READMEs, and prep public demos or portfolio additions.
-
-🔗 **Deliverables:**
-
-* Final project videos or demos
-* Updated GitHub repos w/ clean documentation
-* Resume and LinkedIn optimized with project entries
-
----
-
-Let me know if you want a PDF or Google Docs version!
